@@ -1,0 +1,29 @@
+{
+  "name": "proj",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepare": "tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "author": "Mark Old, August Murphy-Beach",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "@types/dotenv": "^4.0.2",
+    "@types/fs-extra": "^5.0.0",
+    "@types/inquirer": "^0.0.35",
+    "@types/mysql2": "types/mysql2",
+    "@types/node": "^8.0.58",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "fs-extra": "^5.0.0",
+    "humanize": "^0.0.9",
+    "inquirer": "^4.0.1",
+    "mysql2": "^1.5.1"
+  }
+}
