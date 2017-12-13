@@ -9,3 +9,5 @@ DB_PASSWORD=pass
 DB_HOST=ip
 DB_DATABASE=etc
 ```
+
+This project has a few bugs/missing features that we'd like to add but probably never will.  Oh well.
